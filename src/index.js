@@ -24,7 +24,7 @@ app.get('/json', function (req, res) {
 });
 
 app.get('/xml', function (req, res) {
-  res.set('Content-type', 'application/json');
+  res.set('Content-type', 'application/xml');
   return res.send(object2xml({
     '?xml version="1.0" encoding="utf-8"': null,
     body: response
