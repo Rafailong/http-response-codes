@@ -1,0 +1,16 @@
+{
+  "name": "http-response-codes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simple express.js server that will respond with HTTP codes and a simple payload",
+  "author": "rafa.avim@gmail.com",
+  "license": "See license file in ../LICENSE",
+  "main": "index.js",
+  "dependencies": {
+    "express": "latest",
+    "faker": "latest"
+  },
+  "engines": {
+    "node": "0.12.0"
+  }
+}
