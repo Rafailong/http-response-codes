@@ -9,7 +9,8 @@
   "dependencies": {
     "express": "latest",
     "faker": "latest",
-    "object-to-xml": "latest"
+    "object-to-xml": "latest",
+    "JSONStream": "~1.0.4"
   },
   "engines": {
     "node": "0.12.0"
